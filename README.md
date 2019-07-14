@@ -9,7 +9,7 @@ To use the capacitor adapter:
 ```javascript
 import { Keycloak } from 'keycloak-client';
 
-cont keycloak = new Keycloak();
+const keycloak = new Keycloak();
 
 keycloak.init({
     adapter: 'capacitor',
