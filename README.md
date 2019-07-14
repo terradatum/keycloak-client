@@ -6,8 +6,7 @@ To Install:
 
 
 To use the capacitor adapter:
-[source,javascript]
----
+```javascript
 import { Keycloak } from 'keycloak-client';
 
 cont keycloak = new Keycloak();
@@ -18,7 +17,7 @@ keycloak.init({
     ...
     
 }).success(...).error(...);
----
+```
 
 original: https://github.com/keycloak/keycloak/blob/master/adapters/oidc/js/src/main/resources/keycloak.js
 
