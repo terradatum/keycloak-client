@@ -17,7 +17,9 @@
 
 var base64js = require('base64-js');
 import { sha256 } from 'js-sha256';
-import { cap } from '@capacitor/core';
+import { Plugins } from '@capacitor/core';
+
+const cap = Plugins;
 
 export var Keycloak = function (config) {
     if (!(this instanceof Keycloak)) {
