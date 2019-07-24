@@ -58,7 +58,7 @@ export var Keycloak = function (config) {
             adapter = initOptions.adapter;
         } else {
             if (window.Cordova || window.cordova) {
-                adapter = loadAdapter('cordova');
+                adapter = loadAdapter('capacitor');
             } else {
                 adapter = loadAdapter();
             }
