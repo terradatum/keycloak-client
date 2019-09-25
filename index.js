@@ -15,9 +15,11 @@
  * limitations under the License.
  */
 
-var base64js = require('base64-js');
-import { sha256 } from 'js-sha256';
+import * as base64js from 'base64-js';
+import * as sha from 'js-sha256';
 import { Plugins } from '@capacitor/core';
+
+const sha256 = sha.default.sha256;
 
 const cap = Plugins;
 
